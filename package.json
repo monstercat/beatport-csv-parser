@@ -8,7 +8,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jb55/beatport-csv-parser.git"
+    "url": "git://github.com/monstercat/beatport-csv-parser.git"
   },
   "main": "index.js",
   "scripts": {
