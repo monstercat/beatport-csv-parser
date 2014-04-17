@@ -3,7 +3,6 @@ var assert = require('better-assert');
 var parseNumber = require('parse-number');
 var moment = require('moment');
 var debug = require('debug')('beatport-csv-parser');
-var expect = require('expect.js');
 
 var exports = module.exports = function BeatportParser(csv) {
   return {
