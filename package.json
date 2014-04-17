@@ -1,0 +1,33 @@
+{
+  "name": "beatport-csv-parser",
+  "description": "Beatport csv parser",
+  "keywords": [
+    "beatport",
+    "csv"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/beatport-csv-parser.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r should --reporter spec --timeout 10000"
+  },
+  "dependencies": {
+    "better-assert": "^1.0.0",
+    "expect.js": "^0.3.1",
+    "moment": "^2.6.0",
+    "parse-number": "^1.0.1"
+  },
+  "devDependencies": {
+    "better-assert": "*",
+    "csv-parse": "0.0.2",
+    "csv-record-parser": "0.0.4",
+    "csv-record-parser-stream": "0.0.3",
+    "debug": "^0.8.0",
+    "mocha": "*",
+    "should": "^3.3.1",
+    "through": "^2.3.4"
+  }
+}
