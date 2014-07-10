@@ -29,7 +29,8 @@ var exports = module.exports = function BeatportParser(csv) {
 var added = exports.addedFields = ['date'];
 
 exports.date = function(str){
-  str = str.split(' - ')[1]
+  if (!str) return;
+  str = str.split(' - ')[1];
   return moment(str, "DD MMM YYYY").toDate();
 }
 
